@@ -72,21 +72,15 @@ cd petparade-master
 ```
 (If you’re still in the backend folder, type `cd ..`)
 
-#### B. Configure the Frontend
-Create a new file named `.env` in the project root folder and add this line:
-```env
-DANGEROUSLY_DISABLE_HOST_CHECK=true
-```
-
 > ⚠️ This fixes a known proxy issue with `package.json`.
 
-#### C. Install Dependencies
+#### B. Install Dependencies
 Install all necessary React dependencies:
 ```bash
 npm install
 ```
 
-#### D. Run the Frontend
+#### C. Run the Frontend
 Start the React development server:
 ```bash
 npm start
